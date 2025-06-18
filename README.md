@@ -27,7 +27,7 @@ This game replicates the classic Flappy Bird mechanics using the `jsnake` librar
 
 ### 1. Clone or Download
 ```bash
-git clone https://github.com/yourusername/jsnake-flappybird.git
+git clone https://github.com/Itzudii/JSnake.git
 cd jsnake-flappybird
 
 License
