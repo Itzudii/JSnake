@@ -1,0 +1,14 @@
+{
+  "name": "@udityapatel/jsnake",
+  "version": "1.0.0",
+  "description": "A Pygame-inspired game development library for JavaScript (Canvas-based), designed to make 2D game development feel familiar and fun. This project includes a Flappy Bird-style demo built using the `jsnake` API.",
+  "main": "Jsnake/src/main.js",
+    "exports": {
+    ".": "./Jsnake/src/main.js"
+  },
+  "keywords": ["game", "engine", "canvas", "2D", "javascript"],
+  "author": "Uditya Patel",
+  "license": "GPL-3.0",
+  "type": "module",
+  "files": ["Jsnake"]
+}

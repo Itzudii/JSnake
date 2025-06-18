@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <style>
+        :root{
+            --primary:rgb(24, 24, 37);
+            --secondary:rgb(34, 39, 56);
+            --text:rgb(110, 120, 136);
+        }
+        body{
+            margin: 0;
+            padding: 0;
+
+        }
+        h1{
+            text-align: center;
+            color: var(--text);
+        }
+        .window{
+            width: 100vw;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .btns{
+            width: 100vw;
+            height: 100px;
+            background-color: var(--primary);
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .btn {
+            width: 100px;
+            height: 50px;
+            background-color: var(--secondary);
+            color: var(--text);
+        }
+        </style>
+</head>
+
+<body style="background-color: rgb(34, 39, 56);">
+    <p id="score"></p>
+    <h1>FLAPPY BIRD</h1>
+    <div class="window">
+        
+        <canvas id="JSnakeCanvas" style="border: 2px solid #555"></canvas>
+    </div>
+    <script type="module" src="flappy.js"></script>
+</body>
+
+
+</html>
